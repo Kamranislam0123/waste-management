@@ -1,4 +1,3 @@
-//  postgresql://wastedb_owner:hApjmC4xz2Fk@ep-wandering-sky-a5ffuhqt.us-east-2.aws.neon.tech/wastedb?sslmode=require
 
 import {neon} from '@neondatabase/serverless'
 
