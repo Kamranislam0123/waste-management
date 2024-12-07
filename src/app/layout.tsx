@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import { useState, useEffect } from "react";
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
+import Header from "@/components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="min-h-screen bg-gray-50 flex flex-col">
+          <Header onMenuClick={() => setSidebarOpen(!sidebarOpen)} totalEarnings={totalEarnigs} />
           <div className="flex flex-1">
 
             
